@@ -273,7 +273,7 @@ import {
   PropValidator,
   IconContext,
   ContextGetter
-} from "@/lib/types";
+} from "../lib/types";
 export default Vue.extend<{}, {}, IconComputed, IconProps>({
   name: "PhGift",
   props: PropValidator,

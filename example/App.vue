@@ -456,7 +456,7 @@
 import Vue from "vue";
 import * as Phosphor from "@/entry";
 import { ExtendedVue } from "vue/types/vue";
-import { IconProps, IconComputed } from "@/lib/types";
+import { IconProps, IconComputed } from "../lib/types";
 
 type VueIcon = ExtendedVue<Vue, {}, {}, IconComputed, IconProps> & {
   options: { name: string };
